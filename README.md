@@ -1,6 +1,6 @@
 # abema_m3uplaylist
   AbemaTV M3U Playlist for IPTV Simple Client.
-  Conver dbghelp Abema-TV project playlist to work IPTV Simple Client.
+  Conver dbghelp Abema-TV playlist to work IPTV Simple Client.
 
 ## Abema-TV and Abema-TV-EPG
   https://github.com/dbghelp/Abema-TV

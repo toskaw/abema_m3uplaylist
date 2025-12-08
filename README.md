@@ -3,8 +3,8 @@
  dbghelpのAbemaTVプレイリストをIPTVシンプルクライアントで動作するように変換したものです
 
 ## オリジナルのAbemaTVとAbemaTV-EPG
- https://github.com/dbghelp/Abema-TV
-h ttps://github.com/dbghelp/Abema-TV-EPG
+  https://github.com/dbghelp/Abema-TV  
+  https://github.com/dbghelp/Abema-TV-EPG
 
 ## IPTVシンプルクライアントを使ってKodiでAbemaTVを視聴する方法
   1. abema_m3uplaylist.phpを適当なWebサーバーに配置します。

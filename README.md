@@ -10,4 +10,14 @@
   1. Put abema_m3uplaylist.php on your web server.
   2. Open Settings for IPTV Simple Client on kodi.
   3. Set M3U playlist url YOUR_WEBSERVER_URL(abema_m3uplaylist.php).
-  4. Set EPG XMLTV URL  https://raw.githubusercontent.com/dbghelp/Abema-TV-EPG/refs/heads/main/abema.xml
+     Sample: https://castanet.tokyo/abema.php
+  4. (optional)Set EPG XMLTV URL  https://raw.githubusercontent.com/dbghelp/Abema-TV-EPG/refs/heads/main/abema.xml
+  5. (optional)Enable timeshift. Enable timeshift all streams.
+  6. (optional)Modify inputstream.ffmpegdirect settings.
+     Timeshift:Enable timeshift limit.
+     		      Maximum time shift buffer length: 0.25hours
+	Network:Bandwidth 102400 kbps
+  7. Advanced:Streaming:
+	Use FFmpeg http reconnect option if possible: on
+	Use inputstream.adaptive for m3u8(HLS) streams: on
+

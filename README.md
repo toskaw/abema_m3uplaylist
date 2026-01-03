@@ -9,19 +9,19 @@
 ## IPTVシンプルクライアントを使ってKodiでAbemaTVを視聴する方法
   1. abema_m3uplaylist.phpを適当なWebサーバーに配置します。
   2. KodiでIPTV Simple Clientの設定を開きます。(システム>アドオン>Myアドオン)
-  3. 一般>M3UプレイリストのURLをYOUR_WEBSERVER_URL(abema_m3uplaylist.php)に設定します。
-     phpの設置ができない方はこちらをお試しください: https://castanet.tokyo/abema.php
-  4. (optional)Set EPG XMLTV URL:
+  3. 一般>M3UプレイリストのURLをYOUR_WEBSERVER_URL(abema_m3uplaylist.php)に設定します。  
+     phpの設置ができない方はこちらをお試しください: https://castanet.tokyo/abema.php  
+  4. (optional)Set EPG XMLTV URL:  
   https://raw.githubusercontent.com/dbghelp/Abema-TV-EPG/refs/heads/main/abema.xml
   5. (optional)Enable timeshift.  
-  Enable timeshift all streams.
+  Enable timeshift all streams.  
   6. (optional)Modify inputstream.ffmpegdirect settings.  
      Timeshift:Enable timeshift limit.  
      		      Maximum time shift buffer length: 0.25hours  
 	Network:Bandwidth 102400 kbps  
   7. Advanced:Streaming:  
 	Use FFmpeg http reconnect option if possible: on  
-	Use inputstream.adaptive for m3u8(HLS) streams: on  
+	Use inputstream.adaptive for m3u8(HLS) streams: on    
 
 <img src="https://github.com/toskaw/abema_m3uplaylist/blob/main/screenshots/s1.png?raw=true" alt="screenshot 1" width="400"/>
 <img src="https://github.com/toskaw/abema_m3uplaylist/blob/main/screenshots/s2.png?raw=true" alt="screenshot 1" width="400"/>
